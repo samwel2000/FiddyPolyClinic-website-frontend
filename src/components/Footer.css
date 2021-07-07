@@ -1,0 +1,110 @@
+h5 {
+  font-family: "trump_gothic_east_bold";
+  font-size: 2rem !important;
+  letter-spacing: 1px;
+}
+.footer-wraper {
+  background: #eee;
+  color: #000;
+  padding: 4rem 0 2rem 0;
+}
+.footer-info {
+  margin-bottom: 30px;
+}
+address {
+  color: #000;
+}
+.social-links {
+  display: flex;
+}
+.more-info {
+  margin: auto;
+}
+.newsletter {
+  display: block;
+}
+.subscribe {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+form {
+  border: none;
+}
+.email-input {
+  display: inline-block;
+  outline: none;
+  width: 80%;
+  height: 40px;
+  border-radius: 55px;
+  border: 1px solid var(--orangeColor);
+  padding: 0px 45px 0px 10px;
+  background: #f5f5f5;
+  font-family: 'Montserrat-Light';
+}
+input[type="submit"] {
+  display: inline-block;
+  outline: none;
+  height: 40px;
+  border-radius: 55px;
+  background: var(--orangeColor);
+  color: #fff;
+  margin-left: -35px;
+  margin-bottom: 2px;
+  position: absolute;
+  z-index: 2;
+  border: 1px solid var(--orangeColor);
+  padding: 0px 10px;
+  font-family: 'Montserrat-Light';
+}
+input[type="submit"]:hover {
+  color: #fff;
+  opacity: 0.85;
+}
+.useful-link {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.useful-link:hover {
+  color: var(--orangeColor);
+}
+.social-link {
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: var(--orangeColor);
+  background: #fafafa;
+  margin-right: 10px;
+  transition-property: background, color;
+  transition-duration: 0.7s;
+}
+.social-link:hover {
+  color: #fff;
+  background-color: var(--orangeColor);
+}
+.copyright {
+  background: #eee;
+  text-align: center;
+  margin-top: 1px;
+  padding-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .footer-info {
+    padding-bottom: 1rem;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid #aaa;
+  }
+  .more-info {
+    padding-top: 1.15rem;
+    padding-bottom: 1rem;
+    margin-bottom: 10px;
+    border-bottom: 1.5px solid #aaa;
+  }
+  .newsletter {
+    padding-top: 1.15rem;
+  }
+}

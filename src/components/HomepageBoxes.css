@@ -1,0 +1,64 @@
+.homepage-boxes {
+    background: #fafafa;
+}
+.opening-hours,
+.emergency-box,
+.appointment-box
+{
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    border: 3px solid #eee;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.opening-hours h2,
+.emergency-box h2,
+.appointment-box h2
+{
+    position: absolute;
+    background-color: #fafafa;
+    top: -11%;
+    left: -0.5%;
+    padding: 0.3rem 1rem 0.3rem 0;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'trump_gothic_east_bold';
+}
+.opening-hours ul {
+    list-style: none;
+}
+.opening-hours li {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+}
+.opening-hours li span {
+    float: right;
+}
+.call-btn {
+    padding-bottom: 1rem;
+}
+.call-btn a {
+    color: #fff;
+    background: linear-gradient(270deg,var(--yellowColor) 0%,var(--orangeColor) 100%);
+    text-decoration: none;
+    width: 90%;
+    padding: 0.5rem;
+    border-radius: 55px;
+    margin: 0 auto;
+    font-family: 'Montserrat-Medium';
+}
+.call-btn a:hover {
+    opacity: 0.85;
+    color: #fff;
+}
+.call-btn .second {
+    padding: 0.75rem;
+}
+.emergency-box p,
+.appointment-box p {
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.85;
+}

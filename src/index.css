@@ -1,0 +1,48 @@
+*, 
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+:root {
+  --orangeColor: #fa8c16;
+  --yellowColor:#fadb14;
+  --purpleColor: #9254de;
+  --blueColor: #18a3eb;
+}
+@font-face {
+  font-family: 'trump_gothic_east_bold';
+  src: local(trump_gothic_east_bold), url('./assets/fonts/trump_gothic_east_bold.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: local(trump_gothic_east_bold), url('./assets/fonts/Montserrat-Medium.ttf') format('opentype');
+}
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: local(trump_gothic_east_bold), url('./assets/fonts/Montserrat-Light.ttf') format('opentype');
+}
+h1,h2,h3,h4,h5,li,p,a {
+  font-family: 'Montserrat-Light';
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat-Medium';
+}
+
+

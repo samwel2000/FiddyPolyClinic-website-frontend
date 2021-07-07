@@ -1,0 +1,102 @@
+.my-container {
+  width: 83%;
+  margin: 0 auto;
+}
+.content {
+  padding: 4rem 3rem;
+}
+.welcome-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-repeat: no-repeat;
+  background-size: 210%;
+  background-position: center;
+  background-image: url("../assets/images/catchy-background.svg");
+}
+.welcome-image #welcome-img  {
+  width: 100%;
+  border-top-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+} 
+.heading {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+  font-weight: 400;
+  margin-bottom: 1rem;
+  line-height: 3rem;
+}
+.heading span {
+  padding-bottom: 0.25rem;
+  padding-left: 0.45rem;
+  border-bottom: 7px solid var(--orangeColor);
+  border-left: 3px solid var(--orangeColor);
+}
+.sub-heading {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin: 1rem 0;
+  font-family: "trump_gothic_east_bold";
+}
+.services {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.services li {
+  font-size: 1rem;
+  padding: 0.25rem 0;
+  font-family: "Montserrat-Light";
+}
+.services li::before {
+  content: "\2713";
+  color: var(--orangeColor);
+  border-radius: 50%;
+  padding: 0.15rem 0.25rem;
+  font-size: 0.65rem;
+  margin: 0 0.65rem;
+  margin-top: -6px;
+  border: 1px solid var(--orangeColor);
+}
+.more-button {
+  border-radius: 5px;
+  border: 1px solid var(--orangeColor);
+  padding: 0.55rem 2rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  /* font-weight: 600; */
+  font-family: "Montserrat-Medium";
+  background: inherit;
+  transition-duration: 0.3s;
+}
+.more-button:hover {
+  background: linear-gradient(270deg,var(--yellowColor) 0%,var(--orangeColor) 100%);
+  color: #fafafa;
+}
+@media screen and (max-width: 1000px) {
+  .content {
+    padding: 3rem 1rem;
+  }
+  .reverse {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .col-md-6 {
+    width: 100% !important;
+  }
+  .welcome-image {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 477px) {
+  .my-container {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+  }
+}
