@@ -33,7 +33,7 @@ function HomepageBoxes() {
                                 <div className="call-btn">
                                     <a className="d-flex justify-content-center align-items-center" href={`tel:${phoneNumber}`}>
                                         <img src={phoneIcon} alt="phone icon"/> 
-                                        {phoneNumber}
+                                         {phoneNumber}
                                     </a>
                             </div>
                                 <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Donec males uada lorem maximus mauris sceler isque, at rutrum nulla.</p>
