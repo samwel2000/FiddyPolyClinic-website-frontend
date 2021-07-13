@@ -50,6 +50,7 @@
 }
 .services .service-wrapper img {
     width: 50px;
+    pointer-events: none;
     height: 50px;
     margin-bottom: 0.5rem;
 }

@@ -9,7 +9,7 @@ function OurServices() {
                 <div className="container">
                     <div className="services">
                         <h1 className="big-heading text-center">Our services</h1>
-                        <div className="row py-2">
+                        <div className="row py-2 px-2">
                             {ServiceContent1.map(item => (
                                 <div className="col-md-4 pb-4" key={item.id}>
                                     <div className="service-wrapper"
@@ -23,7 +23,7 @@ function OurServices() {
                                 </div>
                             ))}
                         </div>
-                        <div className="row">
+                        <div className="row px-2">
                             {ServiceContent2.map(item => (
                                 <div className="col-md-4 pb-4" key={item.id}>
                                     <div className="service-wrapper"

@@ -38,7 +38,7 @@ function Home() {
                 <div className="container py-3">
                     <div className="row py-5">
                         <div className="col-md-12 py-5">
-                            <div className="section-content"
+                            <div className="section-content px-2"
                             data-aos="zoom-in"
                             data-aos-duration="800">
                                 <h2 className="text-center">
