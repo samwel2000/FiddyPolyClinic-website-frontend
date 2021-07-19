@@ -30,11 +30,11 @@ img {
 }
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: local(trump_gothic_east_bold), url('./assets/fonts/Montserrat-Medium.ttf') format('opentype');
+  src: local(montserrat_medium), url('./assets/fonts/Montserrat-Medium.ttf') format('opentype');
 }
 @font-face {
   font-family: 'Montserrat-Light';
-  src: local(trump_gothic_east_bold), url('./assets/fonts/Montserrat-Light.ttf') format('opentype');
+  src: local(montserrat_light), url('./assets/fonts/Montserrat-Light.ttf') format('opentype');
 }
 h1,h2,h3,h4,h5,li,p,a {
   font-family: 'Montserrat-Light';

@@ -8,7 +8,7 @@ function HomepageBoxes() {
     return (
         <section>
             <div className="homepage-boxes py-2">
-                <div className="container">
+                <div className="container my-3">
                     <div className="row py-5 px-2">
                         <div className="col-12 col-md-4">
                             <div className="opening-hours"

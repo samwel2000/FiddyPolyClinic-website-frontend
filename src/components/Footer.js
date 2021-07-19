@@ -4,6 +4,7 @@ import {FaTwitter,FaFacebookF,FaSkype,FaLinkedinIn} from 'react-icons/fa'
 import { GrInstagram } from 'react-icons/gr';
 import './Footer.css'
 import { Link } from 'react-router-dom';
+import { Email, phoneNumber } from '../Data';
 
 function Footer() {
     return (
@@ -24,8 +25,8 @@ function Footer() {
                                 Kunduchi<br />
                                 P.O.Box 21440 <br /></p>
 
-                                <p><strong>Phone:</strong> +255652068080 <br />
-                                <strong>Email:</strong> info@fiddypolyclinic.com</p>
+                                <p><strong>Phone:</strong> {phoneNumber} <br />
+                                <strong>Email:</strong> {Email} </p>
                             </address>
                             <div className="social-links">
                                 <a href="https://www.instagram.com/fiddypolyclinic/" className="social-link"><FaTwitter/></a>
@@ -67,7 +68,7 @@ function Footer() {
                             <h5><strong>Our Newsletter</strong></h5>
                             <p className="subscribe">Subscribe to our news letter to get updated with our news</p>
                             <form>
-                                <input className="email-input" type="email"/>
+                                <input className="email-input" type="email" placeholder="Email" />
                                 <input className="btn" type="submit" value="Subscribe" />
                             </form>
                         </div>
@@ -80,7 +81,7 @@ function Footer() {
                 <div className="row">
                     <div className="col-md-12">
                         <p>© {(new Date().getFullYear())} Copyright <i>Fiddy Specialized Polyclinic</i>.
-                        All Rights Reserved  <br /> Designed and developed by <strong>samwelgfrey@gmail.com</strong></p>
+                        All Rights Reserved  <br /> Powered by <strong>samwelgfrey@gmail.com</strong></p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,168 @@
+.intro-text {
+  font-weight: bold;
+  font-family: "trump_gothic_east_bold";
+  color: #aaa;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+.contents {
+  background: #eee;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 100%;
+  border-radius: 5px;
+}
+.contents h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat-Medium";
+}
+.contents h2 span {
+  color: var(--orangeColor);
+}
+.contents p {
+  opacity: 0.8;
+}
+.why-us .row {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.image-section {
+  width: 100%;
+  height: 100%;
+  background: url("../assets/images/AboutBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.image-section::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background: black;
+  opacity: 0.8;
+}
+.half-section {
+  background: linear-gradient(
+    270deg,
+    var(--yellowColor) 0%,
+    var(--orangeColor) 100%
+  );
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+}
+.choose-contents {
+  background: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+  margin-left: -11rem;
+  margin-right: 5rem;
+}
+@media screen and (max-width: 1000px) {
+  .choose-contents {
+    margin: 0;
+  }
+  .half-section {
+    padding: 2rem;
+    padding-left: 2.25rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .half-section {
+    padding: 1.5rem 1rem;
+    padding-left: 1.25rem;
+  }
+}
+.choose-contents h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  padding: 2rem 0 3rem 0;
+  font-family: "trump_gothic_east_bold";
+  letter-spacing: 2px;
+}
+.reason {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.5rem 1rem 2rem 1rem;
+}
+.reason h1 {
+  font-size: 1.35rem;
+  font-family: "Montserrat-Medium";
+  font-weight: bold;
+}
+.reason p {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.5;
+}
+.reason img {
+  background: #000;
+  border-radius: 5px;
+  padding: 0.25rem;
+  opacity: 0.9;
+}
+
+/* stats section css */
+.stats-section {
+  background: url("../assets/images/background2.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  position: relative;
+}
+.stats-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  top: 0;
+  background: linear-gradient(
+    270deg,
+    var(--yellowColor) 0%,
+    var(--orangeColor) 100%
+  );
+  opacity: 0.8;
+}
+.all-stats {
+  position: relative;
+  z-index: 2;
+}
+.info span {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: #fafafa;
+  pointer-events: none;
+  cursor: pointer;
+}
+.stat {
+  display: grid;
+  place-items: center;
+}
+@media screen and (max-width: 768px) {
+  .stat {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+  .last {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .vision {
+      margin-top: 1.75rem !important;
+  }
+}
+.stat p {
+  font-size: 1.5rem;
+  color: #fafafa;
+  font-family: "Montserrat-Medium";
+  pointer-events: none;
+  cursor: pointer;
+}

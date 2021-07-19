@@ -6,6 +6,8 @@ import Pharmacy from './assets/images/pharmacy.webp';
 import Laboratory from './assets/images/laboratory.webp';
 import Radiology from './assets/images/radiology.webp';
 import Medical from './assets/images/medical.webp';
+import Member from './assets/images/team_member.webp';
+import Doctor from './assets/images/Doctor.webp';
 
 
 export const phoneNumber = "+255 652 068 080"
@@ -72,5 +74,62 @@ export const ServiceContent2 = [
         'heading':'Radiology',
         'icon': `${Radiology}`,
         'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.'
+    }
+]
+
+export const TeamMembers = [
+    {
+        'id':1,
+        'name':'Dr. Hafidh Ameir',
+        'image': `${Doctor}`,
+        'title':'Health consultant'
+    },
+    {
+        'id':2,
+        'name':'Samwel Godfrey',
+        'image':`${Member}`,
+        'title':'Health consultant'
+    },
+    {
+        'id':3,
+        'name':'Yusuph Ameir',
+        'image':`${Doctor}`,
+        'title':'Statistician'
+    },
+    {
+        'id':4,
+        'name':'Dr. Hafidh Ameir',
+        'image': `${Member}`,
+        'title':'Health consultant'
+    },
+    {
+        'id':5,
+        'name':'Samwel Godfrey',
+        'image':`${Doctor}`,
+        'title':'Health consultant'
+    },
+    {
+        'id':6,
+        'name':'Yusuph Ameir',
+        'image':`${Member}`,
+        'title':'Statistician'
+    },
+    {
+        'id':7,
+        'name':'Dr. Hafidh Ameir',
+        'image': `${Member}`,
+        'title':'Health consultant'
+    },
+    {
+        'id':8,
+        'name':'Samwel Godfrey',
+        'image':`${Doctor}`,
+        'title':'Health consultant'
+    },
+    {
+        'id':9,
+        'name':'Yusuph Ameir',
+        'image':`${Member}`,
+        'title':'Statistician'
     }
 ]

@@ -8,8 +8,8 @@ function EmergencySection() {
             <div className="emergency-row">
                 <div className="emergency1">
                     <div className="emergency"
-                    data-aos="fade-up"
-                    data-aos-duration="1000">
+                    data-aos="zoom-in"
+                    data-aos-duration="800">
                         <div className="info">
                             <h3>For Any Emergency Contact</h3>
                             <p>Esteem spirit temper too say adieus.</p>
@@ -21,8 +21,8 @@ function EmergencySection() {
                 </div>
                 <div className="emergency1 emergency2">
                     <div className="emergency"
-                    data-aos="fade-up"
-                    data-aos-duration="1000">
+                    data-aos="zoom-in"
+                    data-aos-duration="800">
                         <div className="info">
                             <h3>Schedule an appointment</h3>
                             <p>Esteem spirit temper too say adieus.</p>

@@ -1,0 +1,135 @@
+
+.form-heading {
+    font-size: 1.75rem;
+    color: #aaa;
+    font-weight: bolder;
+    font-family: 'trump_gothic_east_bold';
+    letter-spacing: 2px;
+    text-align: center;
+}
+form {
+    width: 80%;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 2.5rem 1rem 2rem 1rem;
+}
+.card {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border: none !important;
+}
+.input-info {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-info label {
+    width: 10rem;
+    text-align: right;
+    font-size: 1rem;
+    color: gray;
+    letter-spacing: 0.5px;
+    font-family: 'Montserrat-Medium';
+}
+input::placeholder,
+textarea::placeholder {
+    font-size: 1rem;
+    font-family: 'Montserrat-Light';
+    opacity: 0.8;
+}
+.input-info input, 
+.input-info textarea {
+    width: calc(100% - 11rem);
+    margin-left: 1rem;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #eee;
+    border-right: 2px solid #eee;
+    padding: 0.75rem 0.5rem;
+    resize: none;
+    font-size: 1.15rem;
+    color: gray;
+}
+.input-info textarea {
+    height: 5rem;
+}
+.submit-button {
+    border-radius: 5px;
+    padding: 0.55rem 2rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    border: none;
+    outline: none;
+    font-family: "Montserrat-Medium";
+    color: #fafafa;
+    transition-duration: 0.3s;
+    border: 1px solid var(--orangeColor);
+    background: linear-gradient(270deg,var(--yellowColor) 0%,var(--orangeColor) 100%);
+}
+.submit-button:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* How to reach us section */
+.find-us-contents {
+    width: 80%;
+    margin: auto;
+}
+.find-us-contents h3 {
+    font-size: 3rem;
+    font-family: 'Montserrat-Medium';
+    padding: 1rem 0 2rem 0;
+    font-weight: bolder;
+    opacity: 0.85;
+}
+.find-us-contents p {
+    font-size: 1.15rem;
+    font-family: 'Montserrat-Light';
+    padding: 0rem 0 2rem 0;
+    font-weight: 500;
+    opacity: 0.85;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 675px){
+    form,
+    .find-us-contents {
+        width: 95%;
+    }
+    .input-info {
+        padding: 1rem 0.5rem;
+    }
+    .input-info label {
+        width: 7.5rem;
+    }
+    .input-info input, 
+    .input-info textarea {
+        width: calc(100% - 7.5rem);
+    }
+}
+@media screen and (max-width: 675px){
+    .find-us-contents h3 {
+        text-align: center;
+        padding: 0;
+    }
+    .input-info {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .input-info label {
+        width: 100%;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+    .input-info input, 
+    .input-info textarea {
+        width: 96%;
+    }
+}
+

@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from "react-animated-slider";
-import "react-animated-slider/build/horizontal.css";
+// import "react-animated-slider/build/horizontal.css";
 import './Home.css';
 import './slider-animation.css';
 import { SliderContent } from '../Data';

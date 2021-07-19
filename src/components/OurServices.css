@@ -16,7 +16,7 @@
     width: 100%;
     height: 100%;
     opacity: 0.95;
-    background: rgb(93, 178, 255);
+    background: var(--orangeColor);
     z-index: 1;
 }
 .services {
@@ -36,15 +36,15 @@
     padding: 1.5rem;
     color: #fff;
     background: rgba( 255, 255, 255, 0.20 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 );
-    backdrop-filter: blur( 0.5px );
-    -webkit-backdrop-filter: blur( 0.5px );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2 ); */
+    backdrop-filter: blur( 0.2px );
+    -webkit-backdrop-filter: blur( 0.2px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     transition-duration: 0.3s;
 }
 .services .service-wrapper:hover {
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.2);
+    box-shadow: 0 8px 32px 0 rgba( 0,0, 0, 0.15);
     backdrop-filter: blur( 5px );
     -webkit-backdrop-filter: blur( 5px );
 }
