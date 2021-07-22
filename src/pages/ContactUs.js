@@ -14,22 +14,22 @@ function ContactUs() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <form onSubmit={e => e.preventDefault() } className="card" data-aos="zoom-in" data-aos-duration="800">
+                            <form className="form card" onSubmit={e => e.preventDefault() } data-aos="zoom-in" data-aos-duration="800">
                             <p className="form-heading">MESSAGE US DIRECTLY</p>
                                 <div className="input-info">
-                                    <label>Full Name:</label>
-                                    <input type="text" required placeholder="Enter your full name" />
+                                    <label className="label">Full Name:</label>
+                                    <input className="input" type="text" required placeholder="Enter your full name" />
                                 </div>
                                 <div className="input-info">
-                                    <label>Email:</label>
-                                    <input type="email" placeholder="Enter your Email" />
+                                    <label className="label">Email:</label>
+                                    <input className="input" type="email" placeholder="Enter your Email" />
                                 </div>
                                 <div className="input-info">
-                                    <label>Phone number:</label>
-                                    <input type="text" pattern="(0([0-9]{1,9}))" title="phone number example 0652435436" required placeholder="Enter your phone number" />
+                                    <label className="label">Phone number:</label>
+                                    <input className="input" type="text" pattern="(0([0-9]{1,9}))" title="phone number example 0652435436" required placeholder="Enter your phone number" />
                                 </div>
                                 <div className="input-info">
-                                    <label>Message:</label>
+                                    <label className="label text-area">Message:</label>
                                     <textarea row="8" required placeholder="Enter your message" />
                                 </div>
                                 <button className="submit-button" type="submit">
@@ -39,7 +39,7 @@ function ContactUs() {
                         </div>
                     </div>
                     <div className="row pt-5">
-                        <div className="col-md-12 pt-5">
+                        <div className="col-md-12 pt-3">
                             <div className="find-us-contents">
                                 <h3
                                 data-aos="zoom-in"

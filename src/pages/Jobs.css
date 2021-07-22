@@ -1,0 +1,106 @@
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.filters p {
+    text-transform: uppercase;
+    color: #aaa;
+    font-size: 0.85rem;
+}
+.filters ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+.filters ul li {
+    padding: 0.5rem 1.5rem;
+    background: #eee;
+    border-radius: 16px;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    font-weight: 600;
+}
+.filters ul li:hover {
+    background: var(--orangeColor);
+    color: #fff;
+}
+.vacancy-wrapper {
+    border: 2px solid  #eee;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 55rem;
+    margin: 0 auto 2rem auto;
+}
+.vacancy-wrapper p {
+    color: #000;
+    font-size: 1rem;
+    opacity: 0.85;
+}
+.vacancy-wrapper h3 {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+.vacancy-wrapper ul {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 0.35rem;
+}
+.vacancy-wrapper ul li {
+    font-size: 1.1rem;
+    opacity: 0.85;
+    padding-bottom: 0.25rem;
+}
+.vacancy-wrapper ul li::before {
+    content: "\2713";
+    color: var(--orangeColor);
+    border-radius: 50%;
+    transform: rotate(360deg);
+    padding: 0.05rem 0.15rem 0.05rem 0.15rem;
+    font-size: 0.65rem;
+    margin: 0 0.35rem;
+    margin-top: -6px;
+    border: 1px solid var(--orangeColor);
+  }
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.job-header p {
+    color: #aaa;
+    font-size: 1rem;
+}
+.job-header h2 {
+    font-family: 'Montserrat-Medium';
+}
+.job-header h2 > span {
+    font-size: 1.25rem;
+}
+.no-jobs {
+    display: grid;
+    place-items: center;
+    padding-top: 1.35rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+@media screen and (max-width: 1000px){
+    .vacancy-wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px){
+    .vacancy-wrapper {
+        width: 100%;
+    }
+    .job-header {
+        flex-direction: column;
+    }
+}
