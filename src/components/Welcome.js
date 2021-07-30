@@ -1,7 +1,7 @@
 import React from 'react';
 import './Welcome.css';
-import Photo  from '../assets/images/background2.jpg'
-// import CatchyImage  from '../assets/images/catchy-background.svg'
+import Photo from '../assets/images/background2.jpg'
+import { Link } from 'react-router-dom'
 
 function Welcome() {
     return (
@@ -18,33 +18,33 @@ function Welcome() {
                     </div>
                     <div className="col-md-6">
                         <div className="content">
-                            <h3 className="heading" 
-                            data-aos="flip-up"
-                            data-aos-duration="1000">
+                            <h3 className="heading"
+                                data-aos="flip-up"
+                                data-aos-duration="1000">
                                 <span>Welco</span>me to fiddy poly clinic
                             </h3>
                             <h1 className="sub-heading"
-                            data-aos="flip-up"
-                            data-aos-duration="1000"
-                            data-aos-delay="100">
+                                data-aos="flip-up"
+                                data-aos-duration="1000"
+                                data-aos-delay="100">
                                 Best care for your health
                             </h1>
-                            <div data-aos="zoom-in" data-aos-duration="800">   
+                            <div data-aos="zoom-in" data-aos-duration="800">
                                 <p>
-                                Esteem spirit temper too say adieus who direct esteem. 
-                                It esteems luckily or picture placing drawing. 
-                                Apartments frequently or motionless on reasonable 
-                                projecting expression.
+                                    Our clinic has qualiﬁed Doctors, Trained Nurses, Specialists,
+                                    Technical staff and Administrative staff. fiddy polyclinic provides sustainable quality
+                                    health services guided by <strong>Service excellence</strong>, <strong>Responsibility</strong>,
+                                    <strong> Quality</strong>, <strong>Communication</strong> and <strong>Innovation</strong>
                                 </p>
                                 <ul className="services">
-                                    <li>Apartments frequently or motionless.</li>
-                                    <li>Duis aute irure dolor in reprehenderit in voluptate.</li>
-                                    <li>Voluptatem quia voluptas sit aspernatur.</li>
+                                    <li><span className="icon"></span><span>We consistently strive to provide the highest quality, safe patient care</span></li>
+                                    <li><span className="icon"></span><span>We respect each person as a member of the Clinic community</span></li>
+                                    <li><span className="icon"></span><span>We accept personal accountability for the work we do</span></li>
                                 </ul>
                             </div>
-                            <button className="more-button">
-                                Learn more
-                            </button>
+                            <div className="pt-3">
+                                <Link to="about-us" className="more-button">Learn more</Link>
+                            </div>
                         </div>
                     </div>
                 </div>

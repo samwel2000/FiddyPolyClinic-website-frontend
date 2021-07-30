@@ -48,11 +48,12 @@
   margin: 0;
 }
 .services li {
+  display: flex;
   font-size: 1rem;
   padding: 0.25rem 0;
   font-family: "Montserrat-Light";
 }
-.services li::before {
+.services li .icon:before {
   content: "\2713";
   color: var(--orangeColor);
   border-radius: 50%;
@@ -68,6 +69,8 @@
   padding: 0.55rem 2rem;
   margin-top: 2rem;
   font-size: 0.9rem;
+  text-decoration: none;
+  color: #000;
   /* font-weight: 600; */
   font-family: "Montserrat-Medium";
   background: inherit;

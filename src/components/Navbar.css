@@ -8,7 +8,14 @@ nav {
   z-index: 3;
 }
 .logo {
-  color: black;
+  opacity: 1;
+  /* background: #eee; */
+}
+.logo img {
+  height: 90px;
+  width: 90px;
+  /* filter: drop-shadow(3rem 0 0.5rem #e486da); */
+  filter: saturate(50rem);
 }
 .menu-icon {
   border-radius: 50%;

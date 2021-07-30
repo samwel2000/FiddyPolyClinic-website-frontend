@@ -17,10 +17,10 @@ function HomepageBoxes() {
                             >
                                 <h2 className="d-flex align-items-center">Opening Hours</h2>
                                 <ul className="p-0 m-0">
-                                    <li>Monday - Thursday <span>8.00 - 10.00</span></li>
-                                    <li>Friday <span>8.00 - 10.30</span></li>
+                                    <li>Monday - Friday <span>8.00 - 22.00</span></li>
                                     <li>Saturday <span>8.00 - 14.00</span></li>
                                     <li>Sunday <span>8.00 - 14.00</span></li>
+                                    <li>Holidays <span>8.00 - 14.00</span></li>
                                 </ul>
                             </div>
                         </div>
@@ -33,10 +33,12 @@ function HomepageBoxes() {
                                 <div className="call-btn">
                                     <a className="d-flex justify-content-center align-items-center" href={`tel:${phoneNumber}`}>
                                         <img src={phoneIcon} alt="phone icon"/> 
-                                         {phoneNumber}
+                                        {phoneNumber}
                                     </a>
                             </div>
-                                <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Donec males uada lorem maximus mauris sceler isque, at rutrum nulla.</p>
+                            <p>
+                            our clinic provide emergency services with acute care of patients who present without prior appointment 
+                            </p>
                             </div>
                         </div>
                         <div className="col-12 col-md-4 mt-5 mt-lg-0">
@@ -50,7 +52,7 @@ function HomepageBoxes() {
                                     {Email}
                                 </a>
                             </div>
-                                <p>Lorem ipsum dolor sit amet, cons ectetur adipiscing elit. Donec males uada lorem maximus mauris sceler isque, at rutrum nulla.</p>
+                                <p>The clinic provides services on daily basis and provides sustainable quality health services. Contact us for an appointment </p>
                             </div>
                         </div>
                     </div>

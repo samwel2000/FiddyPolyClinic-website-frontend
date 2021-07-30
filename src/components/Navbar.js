@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import './Navbar.css';
 import {FaTimes} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
+import Logo from '../assets/images/logo.png';
 
 function Navbar() {
     const [isOpen, setisOpen] = useState(false)
@@ -13,7 +14,7 @@ function Navbar() {
         <>
         <nav style={{background:'inherit'}}>
             <div className="logo">
-                <Link to="/"><h1>Logo</h1></Link>
+                <Link to="/"><img src={Logo} alt="Fiddy polyclinic logo" /></Link>
             </div>
             <div className={isOpen ? "menu-icon menu-2":"menu-icon"} onClick={HandleMenuClick}>
                 <div className="icon-bar"></div>

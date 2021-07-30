@@ -47,17 +47,20 @@ function ContactUs() {
                                 <p
                                 data-aos="zoom-in"
                                 data-aos-duration="800"
-                                data-aos-delay="200">Fiddypoly clinic is located at kunduchi dar es salaam, Tanzania
-                                    near Tanzania Fisheries Research Institute (TAFIRI). here is how to find us
+                                data-aos-delay="200"><strong>Fiddy polyclinic</strong> is located at Kunduchi Ward, 
+                                    Kinondoni Municipal Council, Mtongani (Mtaa), 
+                                    opposite to the Tanzania Fisheries Research Institute (TAFIRI) 
+                                    offices and neighboring to the Kunduchi Beach Hotel (Wet and Wild). 
+                                    here is how to find us
                                     <br />
                                     <br />
                                     <strong>Driving:</strong> Refer to directions provided by google maps
                                     <br />
                                     <br />
-                                    <strong>Public Transportation:</strong> Lorem ipsum dolor sit amet, 
-                                    consectetur adipisicing elit. Architecto, neque, dolorem.
-                                    Lorem ipsum dolor sit amet, 
-                                    consectetur adipisicing elit. Architecto, neque, dolorem. 
+                                    <strong>Public Transportation:</strong> The nearest Health facilities to 
+                                    the Clinic are the government owned Kunduchi Dispensary and a 
+                                    Private owned Rabinsia Lema Hospital which are located about 5 
+                                    and 10 Kilometers away, respectively
                                     <br />
                                     <br />
                                     <strong>Parking:</strong> Fiddypoly clinic has a wide space for packing. feel free to reach us

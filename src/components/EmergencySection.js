@@ -12,7 +12,7 @@ function EmergencySection() {
                     data-aos-duration="800">
                         <div className="info">
                             <h3>For Any Emergency Contact</h3>
-                            <p>Esteem spirit temper too say adieus.</p>
+                            <p>Feel free to contact us for any emergency.</p>
                         </div>
                         <div className="info-button">
                             <a href={`tel:${phoneNumber}`}>{phoneNumber}</a>
@@ -25,7 +25,7 @@ function EmergencySection() {
                     data-aos-duration="800">
                         <div className="info">
                             <h3>Schedule an appointment</h3>
-                            <p>Esteem spirit temper too say adieus.</p>
+                            <p>We are always here to serve you.</p>
                         </div>
                         <div className="info-button">
                             <a href={`mailto:${Email}`}>Make an appointment</a>

@@ -1,3 +1,18 @@
+.mission-vission {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+@media screen and (max-width: 992px) {
+  .mission-vission {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+  .vision {
+    margin-top: 2rem !important;
+  }
+}
 .intro-text {
   font-weight: bold;
   font-family: "trump_gothic_east_bold";
@@ -7,19 +22,22 @@
 }
 .contents {
   background: #eee;
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 0 2rem;
   width: 100%;
+  height: 100%;
   border-radius: 5px;
 }
 .contents h2 {
-  font-size: 2.5rem;
+  font-size: 2.15rem;
   font-family: "Montserrat-Medium";
 }
 .contents h2 span {
   color: var(--orangeColor);
 }
 .contents p {
-  opacity: 0.8;
+  opacity: 0.9;
+  margin: 0;
+  font-size: 1.2rem;
 }
 .why-us .row {
   width: 100%;
@@ -154,9 +172,6 @@
     border: none;
     padding-bottom: 0;
     margin-bottom: 0;
-  }
-  .vision {
-      margin-top: 1.75rem !important;
   }
 }
 .stat p {

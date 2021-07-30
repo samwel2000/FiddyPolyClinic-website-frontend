@@ -56,19 +56,22 @@
     color: #fafafa;
     font-size: 1rem;
 }
-.info-button a {
-    padding: 0.75rem 3rem;
-    border-radius: 25px;
+.info-button {
     cursor: pointer;
-    border:  1px solid #fafafa;
     transition-duration: 0.2s;
+    padding: 0.5rem 3rem;
+    border:  1px solid #fafafa;
+    border-radius: 25px;
+}
+.info-button a {
     text-decoration: none;
     font-weight: 700;
     color: #fafafa;
     cursor: pointer;
+    width: 100%;
     transition-duration: 0.5s;
 }
+.info-button:hover,
 .info-button a:hover {
-    color: rgb(93, 178, 255);
-    background: #fafafa;
+    color: #fafafa;
 }

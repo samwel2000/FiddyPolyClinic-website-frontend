@@ -5,7 +5,7 @@
 .emergency-box,
 .appointment-box
 {
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 1.5rem 1rem 1.5rem;
     border-radius: 20px;
     border: 3px solid #eee;
     position: relative;

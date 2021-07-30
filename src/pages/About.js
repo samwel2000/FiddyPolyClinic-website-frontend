@@ -19,33 +19,32 @@ function About() {
             <section className="py-5">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 pt-2"
-                        data-aos="zoom-in"
-                        data-duration="800">
-                            <p className="intro-text text-center">OUR MISSION</p>
-                            <div className="contents">
-                            <h2 className="">To provide <span>High Solutions</span> for Your Health</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipisicing elit. Architecto, neque, dolorem. 
-                                Iusto dolore omnis ex vero consequatur et deserunt officia incidunt.
-                            </p>
+                        <div className="mission-vission pt-2">
+                            <div className=""
+                            data-aos="zoom-in"
+                            data-duration="800">
+                                <p className="intro-text text-center">OUR MISSION</p>
+                                <div className="contents">
+                                <h2 className="">To be a provider of <span>high quality</span> patient-focused health care </h2>
+                                <p>
+                                that is readily accessible, cost effective and 
+                                meets the needs of the communities we serve.
+                                </p>
+                                </div>
+                            </div>
+                            <div className="vision"
+                            data-aos="zoom-in"
+                            data-duration="800">
+                                <p className="intro-text text-center">OUR VISION</p>
+                                <div className="contents">
+                                <h2 className="">To lead the <span>Municipality</span> as a Healthcare Team </h2> 
+                                <p>
+                                by exceeding patient expectations through the advancement of quality medical services.
+                                </p>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-md-6 pt-2 vision"
-                        data-aos="zoom-in"
-                        data-duration="800">
-                            <p className="intro-text text-center">OUR VISION</p>
-                            <div className="contents">
-                            <h2 className="">To be a <span>World class</span> center for health services</h2> 
-                            <p>
-                                Lorem ipsum dolor sit amet, 
-                                consectetur adipisicing elit. Architecto, neque, dolorem. 
-                                Iusto dolore omnis ex vero consequatur et deserunt officia incidunt.
-                            </p>
-                            </div>
                         </div>
-                    </div>
                 </div>
             </section>
 
