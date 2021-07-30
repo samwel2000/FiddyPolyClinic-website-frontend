@@ -14,7 +14,7 @@ function Ourteam() {
                     data-aos-duration="500">Our team</h1>
                     <div className="col-md-12">
                         <div className="members-wrapper">
-                            {TeamMembers.filter((member) => member.id < 7).map(filteredMember => (
+                            {TeamMembers.filter((member) => member.id < 9).map(filteredMember => (
                                 <div key={filteredMember.id} className="team-wrapper"
                                 data-aos="zoom-in"
                                 data-aos-duration="700">
@@ -35,7 +35,7 @@ function Ourteam() {
                         }}>
                             {
                                 (
-                                    TeamMembers.filter((member) => member.id > 6).map(filteredMember => (
+                                    TeamMembers.filter((member) => member.id > 8).map(filteredMember => (
                                         <div key={filteredMember.id} className="team-wrapper" 
                                         data-aos="zoom-in"
                                         data-aos-duration="700">

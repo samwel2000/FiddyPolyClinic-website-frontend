@@ -106,7 +106,13 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  padding: 0.5rem 1rem 2rem 1rem;
+  padding: 0.5rem 1rem 2rem 0.75rem;
+}
+@media screen and (max-width: 405px) {
+  .reason {
+    padding-left:0;
+    padding-right: 0;
+  }
 }
 .reason h1 {
   font-size: 1.35rem;

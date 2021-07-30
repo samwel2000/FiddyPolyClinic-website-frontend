@@ -189,7 +189,7 @@
 }
 .section-header {
   font-size: 3rem;
-  text-transform: capitalize;
+  /* text-transform: */
   font-weight: bolder;
   font-family: "Montserrat-Medium";
   opacity: 0.85;

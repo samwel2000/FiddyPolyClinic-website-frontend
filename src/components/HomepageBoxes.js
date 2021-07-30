@@ -52,7 +52,7 @@ function HomepageBoxes() {
                                     {Email}
                                 </a>
                             </div>
-                                <p>The clinic provides services on daily basis and provides sustainable quality health services. Contact us for an appointment </p>
+                                <p>The clinic provides sustainable quality health care and services on daily basis. Contact us for an appointment </p>
                             </div>
                         </div>
                     </div>

@@ -44,7 +44,7 @@ function Home() {
                                 </a>
 
                                 <div data-aos="zoom-in" data-aos-duration="1000">
-                                    <h2 className="text-center section-header pb-2">Your Health is Our Priority</h2>
+                                    <h2 className="text-center section-header pb-2">Your health is our priority</h2>
                                     <p className="text-center">
                                         In response to provision of sustainable quality health services to the surrounding community and general public.
                                         Fiddy polyclinic is now accepting National Insurance Fund cards.

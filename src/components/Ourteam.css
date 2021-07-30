@@ -12,16 +12,22 @@
 }
 .members-wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
   place-content: center;
+  place-items: center;
 }
 @media screen and (max-width: 993px) {
+  .members-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
   .members-wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 418px) {
   .members-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -42,8 +48,8 @@
   place-items: center;
 }
 .team-wrapper .member-image img {
-  width: 270px;
-  height: 270px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   transform: scale(1);
   transition-duration: 0.3s;

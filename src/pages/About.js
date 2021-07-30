@@ -21,30 +21,30 @@ function About() {
                     <div className="row">
                         <div className="mission-vission pt-2">
                             <div className=""
-                            data-aos="zoom-in"
-                            data-duration="800">
+                                data-aos="zoom-in"
+                                data-duration="800">
                                 <p className="intro-text text-center">OUR MISSION</p>
                                 <div className="contents">
-                                <h2 className="">To be a provider of <span>high quality</span> patient-focused health care </h2>
-                                <p>
-                                that is readily accessible, cost effective and 
-                                meets the needs of the communities we serve.
-                                </p>
+                                    <h2 className="">To be a provider of <span>high quality</span> patient-focused health care </h2>
+                                    <p>
+                                        that is readily accessible, cost effective and
+                                        meets the needs of the communities we serve.
+                                    </p>
                                 </div>
                             </div>
                             <div className="vision"
-                            data-aos="zoom-in"
-                            data-duration="800">
+                                data-aos="zoom-in"
+                                data-duration="800">
                                 <p className="intro-text text-center">OUR VISION</p>
                                 <div className="contents">
-                                <h2 className="">To lead the <span>Municipality</span> as a Healthcare Team </h2> 
-                                <p>
-                                by exceeding patient expectations through the advancement of quality medical services.
-                                </p>
+                                    <h2 className="">To lead the <span>Municipality</span> as a Healthcare Team </h2>
+                                    <p>
+                                        by exceeding patient expectations through the advancement of quality medical services.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -57,58 +57,54 @@ function About() {
                         <div className="half-section">
                             <div className="choose-contents">
                                 <h2 data-aos="zoom-in"
-                                data-aos-duration="500">What makes us the best</h2>
+                                    data-aos-duration="500">What makes us the best</h2>
                                 <div className="row">
                                     <div className="col-md-6">
                                         <div className="reason"
-                                        data-aos="zoom-in"
-                                        data-aos-duration="800">
+                                            data-aos="zoom-in"
+                                            data-aos-duration="800">
                                             <img src={Consultation} alt="" />
                                             <div>
                                                 <h1>Free consultation</h1>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, 
-                                                    consectetur adipisicing elit. Architecto, neque, dolorem.
+                                                    advice and instruction are provided by health care professional without any charge
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="reason"
-                                        data-aos="zoom-in"
-                                        data-aos-duration="800"
-                                        data-aos-delay="200">
+                                            data-aos="zoom-in"
+                                            data-aos-duration="800"
+                                            data-aos-delay="200">
                                             <img src={Medical} alt="" />
                                             <div>
                                                 <h1>Qualified doctors</h1>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, 
-                                                    consectetur adipisicing elit. Architecto, neque, dolorem.
+                                                    We are have numerous specialized and qualified doctors and staff
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
                                         <div className="reason"
-                                        data-aos="zoom-in"
-                                        data-aos-duration="800">
+                                            data-aos="zoom-in"
+                                            data-aos-duration="800">
                                             <img src={Pharmacy} alt="" />
                                             <div>
                                                 <h1>Modern facilities</h1>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, 
-                                                    consectetur adipisicing elit. Architecto, neque, dolorem.
+                                                    We are equiped with advanced facilities including observation and dispensing rooms
                                                 </p>
                                             </div>
                                         </div>
                                         <div className="reason"
-                                        data-aos="zoom-in"
-                                        data-aos-duration="800"
-                                        data-aos-delay="200">
+                                            data-aos="zoom-in"
+                                            data-aos-duration="800"
+                                            data-aos-delay="200">
                                             <img src={Laboratory} alt="" />
                                             <div>
                                                 <h1>OPD services</h1>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, 
-                                                    consectetur adipisicing elit. Architecto, neque, dolorem.
+                                                    We provide services to outpatients including emergency care, diagnostics and therapy
                                                 </p>
                                             </div>
                                         </div>
