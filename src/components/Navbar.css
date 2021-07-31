@@ -12,8 +12,7 @@ nav {
   /* background: #eee; */
 }
 .logo img {
-  height: 90px;
-  width: 90px;
+  width: 70px;
   /* filter: drop-shadow(3rem 0 0.5rem #e486da); */
   filter: saturate(50rem);
 }
