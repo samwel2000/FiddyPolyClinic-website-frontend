@@ -18,13 +18,16 @@
     padding: 0;
 }
 .filters ul li {
-    padding: 0.5rem 1.5rem;
+    padding: 0.65rem 1.5rem;
     background: #eee;
     border-radius: 16px;
     margin-left: 1rem;
     margin-bottom: 1rem;
+    text-decoration: none;
+    color: #000;
     cursor: pointer;
-    transition-duration: 0.3s;
+    transition-property: color, background;
+    transition-duration: 0.2s;
     font-weight: 600;
 }
 .filters ul li:hover {
@@ -80,9 +83,12 @@
 }
 .job-header h2 {
     font-family: 'Montserrat-Medium';
+    text-align: center;
 }
 .job-header h2 > span {
     font-size: 1.25rem;
+    white-space: nowrap;
+    text-align: center;
 }
 .no-jobs {
     display: grid;

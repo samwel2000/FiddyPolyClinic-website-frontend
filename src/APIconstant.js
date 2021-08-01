@@ -1,7 +1,15 @@
-const BaseUrl = "localhost:8000/"
+import axios from "axios"
 
-const JobsListAPIEndpoint = "jobs-list/"
-const NewsListAPIEndpoint = "news-list/"
-const TeamMembersListAPIEndpoint = "team-members-list/"
-const ContactUsAPIEndpoint = "jobs-list/"
+const BaseUrl = "http://localhost:8000/api/"
+
+const instance = axios.create({
+    baseURL: BaseUrl
+})
+
+export default instance
+
+export const fetchJobs = "jobs-list/?limit=5&offset="
+export const fetchNews = "news-list/?limit=5&offset="
+export const fetchTeamMembers = "team-members-list/"
+export const SendMessage = "message-create/"
 
