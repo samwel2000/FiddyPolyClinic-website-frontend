@@ -12,6 +12,9 @@
   .vision {
     margin-top: 2rem !important;
   }
+  .contents {
+    padding-bottom: 0.75rem !important;
+  }
 }
 .intro-text {
   font-weight: bold;
