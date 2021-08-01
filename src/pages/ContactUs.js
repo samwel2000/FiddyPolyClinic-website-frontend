@@ -35,6 +35,10 @@ function ContactUs() {
             .loading('Your Message is being sent..', 2.5)
             .then(() => message.success('Message sent', 1.5))
             .then(() => message.info('Thank you for contacting us', 3.5));
+        setFullname("")
+        setMessageInfo("")
+        setPhonenumber("")
+        setEmail("")
     };
     const errorMessages = () => {
         message

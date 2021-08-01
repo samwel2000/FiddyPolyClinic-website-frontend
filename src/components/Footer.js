@@ -30,7 +30,7 @@ function Footer() {
                                 </address>
                                 <div className="social-links">
                                     <a href="https://www.instagram.com/fiddypolyclinic/" className="social-link"><FaTwitter /></a>
-                                    <a href="https://www.instagram.com/fiddypolyclinic/" className="social-link"><FaFacebookF /></a>
+                                    <a href="https://m.facebook.com/Fiddy-Polyclinic-297636847375628/" className="social-link"><FaFacebookF /></a>
                                     <a href="https://www.instagram.com/fiddypolyclinic/" className="social-link"><GrInstagram /></a>
                                     <a href="https://www.instagram.com/fiddypolyclinic/" className="social-link"><FaLinkedinIn /></a>
                                 </div>
