@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import TopHeader from '../components/TopHeader';
 import HeaderBackground from '../assets/images/background3.jpg';
 import './Jobs.css';
-import { JobsAndVacancies } from '../Data';
-import { Link } from 'react-router-dom';
+import axios, {fetchJobs} from '../APIconstant';
+import { Pagination } from 'antd';
 
 function Jobs() {
+    const [jobs, setJobs] = useState([]);
+    const [offset, setOffset] = useState(0);
+    const [totalPage, setTotalPage] = useState(1)
+
+    useEffect(() => {
+        const fetchData = async () => {
+            let response = await axios.get(fetchJobs + offset);
+            setJobs(response.data.results);
+            setTotalPage(response.data.count)
+        }
+        fetchData();
+    }, [offset])
+
+    const HandlePagination = (value) => {
+        setOffset(value)
+    }
     return (
         <>
             <TopHeader content="Jobs and Vacancies" image={HeaderBackground} />
@@ -32,30 +48,40 @@ function Jobs() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            {JobsAndVacancies.length > 0 ? JobsAndVacancies.map(job => (
+                            {jobs.length > 0 ? jobs.map(job => (
                                 <div className="vacancy-wrapper" key={job.id} data-aos="zoom-in" data-aos-duration="1000">
                                     <div className="job-header">
-                                        <h2>{job.jobTitle} <span> ({job.postNumber}) </span></h2>
-                                        <p><strong>Date posted: {job.postedOn} </strong></p>
+                                        <h2>{job.title} <span> ({job.position_number < 10 ? `0${job.position_number} post` : `${job.position_number} posts`}) </span></h2>
+                                        <p><strong>Date posted: {job.created_date} </strong></p>
                                     </div>
-                                    <p> {job.description} </p>
+                                    <p> {job.content} </p>
                                     <div>
                                         <h3>Minimum experience</h3>
                                         <ul>
-                                            {job.requirements.map((requirement, index) => (
-                                                <li key={index}>{requirement}</li>
+                                            {job.qualifications !== null && job.qualifications.split(",").map((qualification, index) => (
+                                                <li key={index}>{qualification}</li>
                                             ))}
                                         </ul>
                                     </div>
-                                    <button className="more-button">
-                                        <Link to={job.link}>Read more</Link>
-                                    </button>
+                                    <div className="mt-4">
+                                        <a className="more-button"a href={job.filefield} download target="_blank" rel="noreferrer noopener">Read more</a>
+                                    </div>
                                 </div>
                             )) : (
                                 <div className="no-jobs">
                                     <p>No jobs yet!! subscribe to our newsletter to get job and vacancy updates...</p>
                                 </div>
                             )
+                            }
+                            {jobs.length > 0 && 
+                                <div className="d-flex justify-content-center">
+                                    <Pagination 
+                                    simple
+                                    defaultCurrent={1}
+                                    defaultPageSize={5}
+                                    onChange={HandlePagination}
+                                    total={totalPage} />
+                                </div>
                             }
                         </div>
                     </div>
