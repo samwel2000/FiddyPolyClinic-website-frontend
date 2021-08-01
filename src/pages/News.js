@@ -3,12 +3,13 @@ import TopHeader from '../components/TopHeader';
 import HeaderBackground from '../assets/images/background3.jpg';
 import './News.css';
 import axios, { fetchNews } from '../APIconstant';
-import { Pagination, Image } from 'antd';
+import { Pagination, Image, Skeleton } from 'antd';
 
 function News() {
     const [news, setNews] = useState([]);
     const [offset, setOffset] = useState(0);
-    const [pageTotal, setPageTotal] = useState(1)
+    const [pageTotal, setPageTotal] = useState(1);
+    const [isLoadning, setisLoadning] = useState(true)
 
 
     useEffect(() => {
@@ -16,7 +17,7 @@ function News() {
             let response = await axios.get(fetchNews + offset);
             setPageTotal(response.data.count)
             setNews(response.data.results);
-            console.log(response.data);
+            setisLoadning(false)
         }
         fetchData();
     }, [offset, pageTotal])
@@ -34,7 +35,7 @@ function News() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            {news.length > 0 ? news.map(event => (
+                            {!isLoadning ? (news.length > 0 ? news.map(event => (
                                 <div className="news-wrapper pt-5" key={event.id} data-aos="zoom-in" data-aos-duration="1000">
                                     <h1>{event.heading}</h1>
                                     <div className="news-header">
@@ -48,7 +49,8 @@ function News() {
                                 <div className="no-jobs pt-5 mt-5">
                                     <p>No events yet!! subscribe to our newsletter to get news and events updates...</p>
                                 </div>
-                            )
+                            )) : 
+                            <Skeleton active />
                             }
                             {news.length > 0 &&
                                 <div className="d-flex justify-content-center pt-4">
