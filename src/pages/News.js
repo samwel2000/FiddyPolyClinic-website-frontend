@@ -15,16 +15,16 @@ function News() {
     useEffect(() => {
         const fetchData = async () => {
             let response = await axios.get(fetchNews + offset);
+            console.log(response)
             setPageTotal(response.data.count)
             setNews(response.data.results);
             setisLoadning(false)
         }
         fetchData();
-    }, [offset, pageTotal])
+    }, [offset])
 
     const HandlePageChange = (value) => {
         setOffset(value);
-        console.log(pageTotal);
     }
 
     return (
