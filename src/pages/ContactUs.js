@@ -68,20 +68,20 @@ function ContactUs() {
                             <form className="form card" onSubmit={HandleSubmit} data-aos="zoom-in" data-aos-duration="800">
                                 <p className="form-heading">MESSAGE US DIRECTLY</p>
                                 <div className="input-info">
-                                    <label className="label" name="fullname">Full Name:</label>
-                                    <input className="input" type="text" required placeholder="Enter your full name" onChange={(e) => setFullname(e.target.value)} />
+                                    <label className="label">Full Name:</label>
+                                    <input className="input" type="text" required placeholder="Enter your full name" value={fullname} onChange={(e) => setFullname(e.target.value)} />
                                 </div>
-                                <div className="input-info" name="email">
+                                <div className="input-info">
                                     <label className="label">Email:</label>
-                                    <input className="input" type="email" placeholder="Enter your Email" onChange={(e) => setEmail(e.target.value)} />
+                                    <input className="input" type="email" placeholder="Enter your Email"value={email}  onChange={(e) => setEmail(e.target.value)} />
                                 </div>
-                                <div className="input-info" name="phonenumber">
+                                <div className="input-info">
                                     <label className="label">Phone number:</label>
-                                    <input className="input" type="text" required placeholder="Enter your phone number" onChange={(e) => setPhonenumber(e.target.value)} />
+                                    <input className="input" type="text" required placeholder="Enter your phone number" value={phonenumber} onChange={(e) => setPhonenumber(e.target.value)} />
                                 </div>
                                 <div className="input-info">
                                     <label className="label text-area" name="message">Message:</label>
-                                    <textarea row="8" required placeholder="Enter your message" onChange={(e) => setMessageInfo(e.target.value)} />
+                                    <textarea row="8" required placeholder="Enter your message" value={messageInfo} onChange={(e) => setMessageInfo(e.target.value)} />
                                 </div>
                                 <button className="submit-button" type="submit">
                                     submit <FaLongArrowAltRight />
