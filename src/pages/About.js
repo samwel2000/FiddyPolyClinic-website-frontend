@@ -48,7 +48,42 @@ function About() {
                 </div>
             </section>
 
-            <section className="py-5 why-us">
+            <section className="more-about py-5 mt-5">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="more-contents">
+                                <p data-aos="zoom-in" data-aos-duration="1000">
+                                This Clinic officially commenced provision of services on the 04th January, 2021, 
+                                it provides variety of health services to the surrounding community. 
+                                It has been registered by BRELA under the name of FIDDY Company Limited with Reference Numbers 141790617, 
+                                Ministry of Health, Community Development, Gender, Elderly and Children (MoHCDGEC) ID: 71660, 
+                                and Business license number KNC/23/41, ID: 86702.
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
+                                    <span>The company</span> currently has a total of 4 Board Directors who 
+                                    meets twice a year, whereby among their main roles and responsibilities 
+                                    includes to oversee the overall performance of both the Polyclinic and 
+                                    Company, as well as reach consensus regarding all newly proposed issues, 
+                                    before being incorporated and implemented.
+                                    <br />
+                                    <br />
+                                    According to the level of a Polyclinic Staff requirement we have complied 
+                                    with the MoHCDGEC’s guideline by recruitment of qualiﬁed Doctors, Trained 
+                                    Nurses, Specialists, Technical and Administrative Staffs in order to ensure 
+                                    the Polyclinic provides sustainable quality health services to the surrounding 
+                                    community at large. The Clinic currently provides services on daily basis 
+                                    from 8.00 am up to 10.00 pm, 
+                                    but intends to extend to 24 hours after six months of service provision.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section className="pb-5 why-us m-0">
                 <div className="row">
                     <div className="col-md-6 p-0 m-0">
                         <div className="image-section"></div>

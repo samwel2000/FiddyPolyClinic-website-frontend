@@ -23,6 +23,17 @@
   font-size: 1.5rem;
   letter-spacing: 1px;
 }
+.more-about {
+  background: #fafafa;
+}
+.more-contents p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.more-contents p > span {
+  text-transform: capitalize;
+  font-family: 'Montserrat-Medium';
+}
 .contents {
   background: #eee;
   padding: 2rem 2rem 0 2rem;

@@ -12,7 +12,9 @@ function Ourteam() {
     useEffect(() => {
         const fetchData = async () => {
             const response = await axios.get(fetchTeamMembers);
+            console.log(response)
             setMembers(response.data.results);
+            console.log(response)
             setisLoading(false)
         }
         fetchData();
