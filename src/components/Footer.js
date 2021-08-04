@@ -1,12 +1,49 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { RiArrowRightCircleFill } from 'react-icons/ri';
 import { FaTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/fa'
 import { GrInstagram } from 'react-icons/gr';
-import './Footer.css'
+import './Footer.css';
 import { Link } from 'react-router-dom';
 import { Email, phoneNumber } from '../Data';
+import { message } from 'antd';
+import axios, {Subscribe} from '../APIconstant';
 
 function Footer() {
+    const [email, setEmail] = useState("");
+
+    const SendData = async () => {
+        const response = await axios.post(Subscribe, { "email": `${ email }` })
+        console.log(response)
+
+        if (response.status > 201) {
+            console.log(response);
+            throw new Error(`Request failed with code: ${response.status}`);
+        }
+    }
+
+    const successMessages = () => {
+        message
+            .loading('Your being subscribed..', 2.5)
+            .then(() => message.success('Subscription complete', 1.5))
+            .then(() => message.info('Thank you for subscribing into our newsletter', 3.5));
+        setEmail("")
+    };
+    const errorMessages = () => {
+        message
+            .loading('Your being subscribed..', 2.5)
+            .then(() => message.error('Error subscribing', 1.5))
+            .then(() => message.info('Try subscribig again. if the error proceeds kindly contact us via our phonenumber', 3.5));
+    };
+
+    async function HandleSubmit(e) {
+        e.preventDefault();
+        try {
+            await SendData();
+            successMessages();
+        } catch {
+            errorMessages();
+        }
+    }
     return (
         <>
             <div className="footer-wraper">
@@ -66,9 +103,9 @@ function Footer() {
                             >
                                 <h5><strong>Our Newsletter</strong></h5>
                                 <p className="subscribe">Subscribe to our news letter to get updated with our news</p>
-                                <form>
-                                    <input className="email-input" type="email" placeholder="Email" />
-                                    <input className="btn" type="submit" value="Subscribe" />
+                                <form onSubmit={HandleSubmit}>
+                                    <input className="email-input" type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                                    <input className="btn" type="submit" value="submit" />
                                 </form>
                             </div>
                         </div>

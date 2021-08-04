@@ -7,9 +7,9 @@ import Pharmacy from './assets/images/pharmacy.webp';
 import Laboratory from './assets/images/laboratory.webp';
 import Radiology from './assets/images/radiology.webp';
 import Medical from './assets/images/medical.webp';
-import Member from './assets/images/team_member.webp';
-import Doctor from './assets/images/Doctor.webp';
-import EventImage from './assets/images/AboutBackground.jpg';
+// import Member from './assets/images/team_member.webp';
+// import Doctor from './assets/images/Doctor.webp';
+// import EventImage from './assets/images/AboutBackground.jpg';
 
 
 export const phoneNumber = "+255 754 270 725 "
@@ -76,107 +76,107 @@ export const ServiceContent = [
     }
 ]
 
-export const TeamMembers = [
-    {
-        'id':1,
-        'name':'Dr. Hafidh Ameir',
-        'image': `${Doctor}`,
-        'title':'Health consultant'
-    },
-    {
-        'id':2,
-        'name':'Samwel Godfrey',
-        'image':`${Member}`,
-        'title':'Health consultant'
-    },
-    {
-        'id':3,
-        'name':'Yusuph Ameir',
-        'image':`${Doctor}`,
-        'title':'Statistician'
-    },
-    {
-        'id':4,
-        'name':'Dr. Hafidh Ameir',
-        'image': `${Member}`,
-        'title':'Health consultant'
-    },
-    {
-        'id':5,
-        'name':'Samwel Godfrey',
-        'image':`${Doctor}`,
-        'title':'Health consultant'
-    },
-    {
-        'id':6,
-        'name':'Yusuph Ameir',
-        'image':`${Member}`,
-        'title':'Statistician'
-    },
-    {
-        'id':7,
-        'name':'Dr. Hafidh Ameir',
-        'image': `${Member}`,
-        'title':'Health consultant'
-    },
-    {
-        'id':8,
-        'name':'Samwel Godfrey',
-        'image':`${Doctor}`,
-        'title':'Health consultant'
-    },
-    {
-        'id':9,
-        'name':'Yusuph Ameir',
-        'image':`${Member}`,
-        'title':'Statistician'
-    }
-]
+// export const TeamMembers = [
+//     {
+//         'id':1,
+//         'name':'Dr. Hafidh Ameir',
+//         'image': `${Doctor}`,
+//         'title':'Health consultant'
+//     },
+//     {
+//         'id':2,
+//         'name':'Samwel Godfrey',
+//         'image':`${Member}`,
+//         'title':'Health consultant'
+//     },
+//     {
+//         'id':3,
+//         'name':'Yusuph Ameir',
+//         'image':`${Doctor}`,
+//         'title':'Statistician'
+//     },
+//     {
+//         'id':4,
+//         'name':'Dr. Hafidh Ameir',
+//         'image': `${Member}`,
+//         'title':'Health consultant'
+//     },
+//     {
+//         'id':5,
+//         'name':'Samwel Godfrey',
+//         'image':`${Doctor}`,
+//         'title':'Health consultant'
+//     },
+//     {
+//         'id':6,
+//         'name':'Yusuph Ameir',
+//         'image':`${Member}`,
+//         'title':'Statistician'
+//     },
+//     {
+//         'id':7,
+//         'name':'Dr. Hafidh Ameir',
+//         'image': `${Member}`,
+//         'title':'Health consultant'
+//     },
+//     {
+//         'id':8,
+//         'name':'Samwel Godfrey',
+//         'image':`${Doctor}`,
+//         'title':'Health consultant'
+//     },
+//     {
+//         'id':9,
+//         'name':'Yusuph Ameir',
+//         'image':`${Member}`,
+//         'title':'Statistician'
+//     }
+// ]
 
 
-export const JobsAndVacancies = [
-    {
-        'id':1,
-        'jobTitle':'Clinical officers',
-        'postNumber': `02 posts`,
-        'postedOn':'12-06-2011',
-        'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.',
-        'requirements':['N years of experrience in the field',
-                        'Bachelors degree on blah... or any related field',
-                        'Experience from known centre',
-                        'Knowledge how to work with tools (psdgadg, dsgjd)'],
-        'link':'#'
-    },
-    {
-        'id':2,
-        'jobTitle':'Lab technicians',
-        'postNumber': `10 posts`,
-        'postedOn':'12-06-2011',
-        'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.',
-        'requirements':['N years of experrience in the field',
-                        'Bachelors degree on blah... or any related field',
-                        'Experience from known centre',
-                        'Knowledge how to work with tools (psdgadg, dsgjd)'],
-        'link':'#'
-    },
-]
+// export const JobsAndVacancies = [
+//     {
+//         'id':1,
+//         'jobTitle':'Clinical officers',
+//         'postNumber': `02 posts`,
+//         'postedOn':'12-06-2011',
+//         'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.',
+//         'requirements':['N years of experrience in the field',
+//                         'Bachelors degree on blah... or any related field',
+//                         'Experience from known centre',
+//                         'Knowledge how to work with tools (psdgadg, dsgjd)'],
+//         'link':'#'
+//     },
+//     {
+//         'id':2,
+//         'jobTitle':'Lab technicians',
+//         'postNumber': `10 posts`,
+//         'postedOn':'12-06-2011',
+//         'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.',
+//         'requirements':['N years of experrience in the field',
+//                         'Bachelors degree on blah... or any related field',
+//                         'Experience from known centre',
+//                         'Knowledge how to work with tools (psdgadg, dsgjd)'],
+//         'link':'#'
+//     },
+// ]
 
 
-export const EventsAndNews = [
-    {
-        'id':1,
-        'title':'Official launch of fiddy polyclinic',
-        'eventImage':`${EventImage}`,
-        'altImage':'fiddy polyclinic staffs',
-        'category':'News',
-        'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.'
-    },
-    {
-        'id':2,
-        'title':'Official launch of fiddy polyclinic',
-        'eventImage':`${EventImage}`,
-        'altImage':'fiddy polyclinic staffs',
-        'Category':'Event',
-        'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.'
-    }
-]
+// export const EventsAndNews = [
+//     {
+//         'id':1,
+//         'title':'Official launch of fiddy polyclinic',
+//         'eventImage':`${EventImage}`,
+//         'altImage':'fiddy polyclinic staffs',
+//         'category':'News',
+//         'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.'
+//     },
+//     {
+//         'id':2,
+//         'title':'Official launch of fiddy polyclinic',
+//         'eventImage':`${EventImage}`,
+//         'altImage':'fiddy polyclinic staffs',
+//         'Category':'Event',
+//         'description':'Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.'
+//     }
+// ]
