@@ -32,7 +32,7 @@ function Ourteam() {
                         members.length > 0 ? 
                         <div className="col-md-12">
                         <div className="members-wrapper">
-                            {members.filter((member, index) => index < 9).map(filteredMember => (
+                            {members.filter((member, index) => index < 8).map(filteredMember => (
                                 <div key={filteredMember.id} className="team-wrapper"
                                 data-aos="zoom-in"
                                 data-aos-duration="700">
@@ -46,10 +46,8 @@ function Ourteam() {
                                 </div>
                             ))}
                         </div>
-                        <div className="members-wrapper" style={{
-                            transitionDuration:"1s"
-                        }}>
-                            {
+                        <div className="members-wrapper">
+                            { moreTeam &&
                                 (
                                     members.filter((member, index) => index > 8).map(filteredMember => (
                                         <div key={filteredMember.id} className="team-wrapper" 

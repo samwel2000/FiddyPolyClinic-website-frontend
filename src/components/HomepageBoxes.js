@@ -37,7 +37,7 @@ function HomepageBoxes() {
                                     </a>
                             </div>
                             <p>
-                            our clinic provide emergency services with acute care of patients who present without prior appointment 
+                            Our clinic provide emergency services with acute care of patients who present without prior appointment 
                             </p>
                             </div>
                         </div>

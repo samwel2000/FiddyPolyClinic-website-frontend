@@ -21,7 +21,7 @@ function Welcome() {
                             <h3 className="heading"
                                 data-aos="flip-up"
                                 data-aos-duration="1000">
-                                <span>Welco</span>me to fiddy poly clinic
+                                <span>Welco</span>me to fiddy polyclinic
                             </h3>
                             <h1 className="sub-heading"
                                 data-aos="flip-up"

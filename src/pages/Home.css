@@ -183,9 +183,14 @@
   justify-content: center;
   gap: 0.5rem;
 }
-.image-div img {
-  object-fit: contain;
+.image-div {
+  display: grid;
+  place-items: center;
   width: 25rem;
+}
+.image-div a img {
+  object-fit: contain;
+  width: 100%;
 }
 .section-header {
   font-size: 3rem;
@@ -223,6 +228,9 @@
 }
 
 @media (max-width: 640px) {
+  .image-div {
+    width: 80%;
+  }
   .slider-wrapper,
   .slide {
     height: 100vh;
